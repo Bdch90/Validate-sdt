@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	var input = prompt('nhap sdt');
+	var pattern = /^\(([0-9]{2,2})\)\-\(0([0-9]{9,9})\)$/;
+	var result = pattern.test(input);
+	document.write(result);
+</script>
+</body>
+</html>
